@@ -1,0 +1,8 @@
+TopViewer/Library/
+TopViewer/UserSettings/
+*.sln
+TopViewer/.vs/
+TopViewer/obj/
+TopViewer/Logs/
+*.editorconfig
+TopViewer/Temp/
