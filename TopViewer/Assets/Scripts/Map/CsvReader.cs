@@ -4,13 +4,12 @@ using System.IO;
 using UnityEngine;
 using System.Collections.Generic;
 
-public class CsvReader
+public class CsvReader : MonoBehaviour
 {
     TextAsset read;//読まれるファイルを管理　ファイルは全て Asset/Resources/ に保管すること
     List<string[]> list = new();
 
     //2次元配列のListを投げる関数
-    //
     public List<string[]> ReadCsv(string file)
     {
         read = Resources.Load<TextAsset>(file) as TextAsset;
